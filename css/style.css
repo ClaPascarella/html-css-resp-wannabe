@@ -42,28 +42,6 @@ img {
 }
 
 /************************************************
-    MEDIA QUERIES
- ************************************************/
-@media screen and (max-width: 480px) { 
-
-    body {
-        flex-wrap: nowrap;
-
-        
-        
-    }
-    
-}
-
-
-
-
-
-
-
-
-
-/************************************************
     UTILITIES
  ************************************************/
 
@@ -147,5 +125,29 @@ img {
 }
 
 /************************************************
-    SOLUZIONE RESPONSIVE
+    MEDIA QUERIES
  ************************************************/
+ @media screen and (max-width: 720px) { 
+
+    .container {
+        width: 100%;
+    }
+        
+}
+
+        
+@media screen and (max-width: 480px) {
+
+    .col .lessons,
+    .steps .col,
+    .why-us .col {
+        width: 100%;
+        margin-bottom: 4rem;
+
+    }
+
+    .row {
+        display: block;
+    }
+    
+}
